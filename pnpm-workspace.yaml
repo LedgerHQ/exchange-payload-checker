@@ -1,0 +1,6 @@
+ignoredBuiltDependencies:
+  - protobufjs
+
+peerDependencyRules:
+  allowedVersions:
+    tailwind-merge: "3"
