@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: exchange-payload-checker
+  description: Web tool for partners to check a Ledger Swap or Sell payload and signature without a device
+  tags:
+    - tool
+    - exchange
+    - ptx
+    - typescript
+  links:
+    - url: https://ledgerhq.github.io/exchange-payload-checker/
+      title: Website
+  annotations:
+    ledger.com/code_repository: https://github.com/LedgerHQ/exchange-payload-checker
+    github.com/project-slug: LedgerHQ/exchange-payload-checker
+    jira/project-key: LIVE
+  labels:
+    ledger.com/contains_pii: "no"
+    ledger.com/donjon_review: "exempted"
+spec:
+  type: website
+  lifecycle: experimental
+  owner: group:ptx
+  system: ptx-services
